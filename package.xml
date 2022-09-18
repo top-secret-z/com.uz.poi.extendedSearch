@@ -1,44 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package name="com.uz.poi.extendedSearch" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/package.xsd">
-	<packageinformation>
-		<packagename>Points of Interest - Extended Search</packagename>
-		<packagename language="de">Points of Interest - Erweiterte Suche</packagename>
-		<packagedescription>Points of Interest - Extended Search</packagedescription>
-		<packagedescription language="de">Points of Interest - Erweiterte Suche</packagedescription>
-		<version>5.5.0</version>
-		<date>2022-05-25</date>
-	</packageinformation>
-	
-	<authorinformation>
-		<author>Udo Zaydowicz</author>
-	</authorinformation>
-	
-	<requiredpackages>
-		<requiredpackage minversion="5.3.0">com.woltlab.wcf</requiredpackage>
-		<requiredpackage minversion="5.3.0">com.uz.poi</requiredpackage>
-		<requiredpackage minversion="5.4.0">de.cwalz.extendedSearch</requiredpackage>
-	</requiredpackages>
-	
-	<excludedpackages>
-		<excludedpackage version="5.6.0 Alpha 1">com.woltlab.wcf</excludedpackage>
-	</excludedpackages>
-	
-	<instructions type="install">
-		<instruction type="file" application="poi">files.tar</instruction>
-		<instruction type="eventListener">eventListener.xml</instruction>
-		<instruction type="option">option.xml</instruction>
-		<instruction type="language">language/*.xml</instruction>
-	</instructions>
-	
-	<instructions type="update" fromversion="5.2.*">
-		<instruction type="file" application="poi">files.tar</instruction>
-	</instructions>
-	
-	<instructions type="update" fromversion="5.3.*">
-		<instruction type="file" application="poi">files.tar</instruction>
-	</instructions>
-	
-	<instructions type="update" fromversion="5.4.0">
-		<instruction type="file" application="poi">files.tar</instruction>
-	</instructions>
+<package name="de.softcreatr.poi.extendedSearch" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com https://www.woltlab.com/XSD/2019/package.xsd">
+    <packageinformation>
+        <packagename>Points of Interest - Extended Search</packagename>
+        <packagename language="de">Points of Interest - Erweiterte Suche</packagename>
+        <packagedescription>Points of Interest - Extended Search</packagedescription>
+        <packagedescription language="de">Points of Interest - Erweiterte Suche</packagedescription>
+        <version>5.5.1</version>
+        <date>2022-09-18</date>
+    </packageinformation>
+
+    <authorinformation>
+        <author><![CDATA[SoftCreatR.dev]]></author>
+        <authorurl><![CDATA[https://softcreatr.dev]]></authorurl>
+    </authorinformation>
+
+    <requiredpackages>
+        <requiredpackage minversion="5.3.0">com.woltlab.wcf</requiredpackage>
+        <requiredpackage minversion="5.3.0">de.softcreatr.poi</requiredpackage>
+        <requiredpackage minversion="5.4.0">de.cwalz.extendedSearch</requiredpackage>
+    </requiredpackages>
+
+    <excludedpackages>
+        <excludedpackage version="5.6.0 Alpha 1">com.woltlab.wcf</excludedpackage>
+        <excludedpackage version="*">com.uz.poi.extendedSearch</excludedpackage>
+    </excludedpackages>
+
+    <instructions type="install">
+        <instruction type="file" application="poi" />
+        <instruction type="eventListener" />
+        <instruction type="option" />
+        <instruction type="language" />
+    </instructions>
+
+    <instructions type="update" fromversion="5.2.*">
+        <instruction type="file" application="poi" />
+    </instructions>
+
+    <instructions type="update" fromversion="5.3.*">
+        <instruction type="file" application="poi" />
+    </instructions>
+
+    <instructions type="update" fromversion="5.4.0">
+        <instruction type="file" application="poi" />
+    </instructions>
+
+    <instructions type="update" fromversion="5.5.0">
+        <instruction type="file" application="poi" />
+        <instruction type="eventListener" />
+        <instruction type="option" />
+        <instruction type="language" />
+    </instructions>
 </package>

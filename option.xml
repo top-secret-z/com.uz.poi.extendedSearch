@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/option.xsd">
-		<import>
-		<categories>
-			<category name="extended_search.poi">
-				<parent>extended_search</parent>
-			</category>
-		</categories>
-		
-		<options>
-			<option name="extended_search_poi_enabled">
-				<categoryname>extended_search.poi</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>1</defaultvalue>
-				<enableoptions>extended_search_poi_count</enableoptions>
-			</option>
+        <import>
+        <categories>
+            <category name="extended_search.poi">
+                <parent>extended_search</parent>
+            </category>
+        </categories>
 
-			<option name="extended_search_poi_count">
-				<categoryname>extended_search.poi</categoryname>
-				<optiontype>integer</optiontype>
-				<defaultvalue>5</defaultvalue>
-				<minvalue>1</minvalue>
-			</option>
-		</options>
-	</import>
+        <options>
+            <option name="extended_search_poi_enabled">
+                <categoryname>extended_search.poi</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>1</defaultvalue>
+                <enableoptions>extended_search_poi_count</enableoptions>
+            </option>
+
+            <option name="extended_search_poi_count">
+                <categoryname>extended_search.poi</categoryname>
+                <optiontype>integer</optiontype>
+                <defaultvalue>5</defaultvalue>
+                <minvalue>1</minvalue>
+            </option>
+        </options>
+    </import>
 </data>
