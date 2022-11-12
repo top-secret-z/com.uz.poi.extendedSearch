@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="en">
-	<category name="wcf.extendedSearch">
-		<item name="wcf.extendedSearch.group.poi"><![CDATA[Points of Interest]]></item>
-	</category>
-	
-	<category name="wcf.acp.option">
-		<item name="wcf.acp.option.category.extended_search.poi"><![CDATA[Points of Interest]]></item>
-		<item name="wcf.acp.option.extended_search_poi_enabled"><![CDATA[Enable POI Entries]]></item>
-		<item name="wcf.acp.option.extended_search_poi_count"><![CDATA[Number of POI Entries]]></item>
-	</category>	
+    <category name="wcf.extendedSearch">
+        <item name="wcf.extendedSearch.group.poi"><![CDATA[Points of Interest]]></item>
+    </category>
+
+    <category name="wcf.acp.option">
+        <item name="wcf.acp.option.category.extended_search.poi"><![CDATA[Points of Interest]]></item>
+        <item name="wcf.acp.option.extended_search_poi_enabled"><![CDATA[Enable POI Entries]]></item>
+        <item name="wcf.acp.option.extended_search_poi_count"><![CDATA[Number of POI Entries]]></item>
+    </category>    
 </language>
